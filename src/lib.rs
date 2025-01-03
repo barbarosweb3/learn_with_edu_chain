@@ -4,6 +4,7 @@ pub mod models;
 pub mod services;
 
 use actix_web::{web, App, HttpServer};
+use actix_cors::Cors;
 use std::sync::Arc;
 
 pub struct AppState {
@@ -37,6 +38,12 @@ pub async fn create_app(
 
     let server = HttpServer::new(move || {
         App::new()
+            .wrap(
+                Cors::default()
+                    .allow_any_origin()
+                    .allow_any_method()
+                    .allow_any_header()
+            )
             .app_data(app_state.clone())
             .service(
                 web::scope("/api/v1")

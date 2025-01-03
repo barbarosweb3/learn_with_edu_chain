@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "@headlessui/react": "^2.2.0",
+    "@heroicons/react": "^2.2.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "lucide-react": "^0.469.0",
+    "postcss": "^8.4.49",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwindcss": "^3.4.17",
+    "vite": "^6.0.7"
+  },
+  "name": "learn_with_edu_chain",
+  "version": "1.0.0",
+  "main": "postcss.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barbarosweb3/learn_with_edu_chain.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/barbarosweb3/learn_with_edu_chain/issues"
+  },
+  "homepage": "https://github.com/barbarosweb3/learn_with_edu_chain#readme",
+  "description": ""
+}

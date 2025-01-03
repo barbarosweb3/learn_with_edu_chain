@@ -1,75 +1,43 @@
-{
-  "abi": [
-    {
-      "inputs": [
-        {
-          "internalType": "string",
-          "name": "courseId",
-          "type": "string"
-        },
-        {
-          "internalType": "string",
-          "name": "metadata",
-          "type": "string"
-        },
-        {
-          "internalType": "uint256",
-          "name": "price",
-          "type": "uint256"
-        }
-      ],
-      "name": "createCourse",
-      "outputs": [],
-      "stateMutability": "nonpayable",
-      "type": "function"
-    },
-    {
-      "inputs": [
-        {
-          "internalType": "address",
-          "name": "student",
-          "type": "address"
-        },
-        {
-          "internalType": "string",
-          "name": "courseId",
-          "type": "string"
-        }
-      ],
-      "name": "issueCertificate",
-      "outputs": [],
-      "stateMutability": "nonpayable",
-      "type": "function"
-    },
-    {
-      "inputs": [
-        {
-          "internalType": "string",
-          "name": "",
-          "type": "string"
-        }
-      ],
-      "name": "courses",
-      "outputs": [
-        {
-          "internalType": "string",
-          "name": "id",
-          "type": "string"
-        },
-        {
-          "internalType": "address",
-          "name": "instructor",
-          "type": "address"
-        },
-        {
-          "internalType": "string",
-          "name": "metadata",
-          "type": "string"
-        },
-        {
-          "internalType": "uint256",
-          "name": "price",
-          "type": "uint256"
-        },
-        {
-          "internalType": "bool",
+[
+  {
+    "inputs": [
+      {
+        "internalType": "string",
+        "name": "courseId",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "metadata",
+        "type": "string"
+      },
+      {
+        "internalType": "uint256",
+        "name": "price",
+        "type": "uint256"
+      }
+    ],
+    "name": "createCourse",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "student",
+        "type": "address"
+      },
+      {
+        "internalType": "string",
+        "name": "courseId",
+        "type": "string"
+      }
+    ],
+    "name": "issueCertificate",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]
