@@ -1,0 +1,20 @@
+{
+  "db_name": "PostgreSQL",
+  "query": "\n            INSERT INTO courses\n                (id, blockchain_id, instructor_address, title, metadata, price, is_active)\n            VALUES ($1, $2, $3, $4, $5, $6, $7)\n            ",
+  "describe": {
+    "columns": [],
+    "parameters": {
+      "Left": [
+        "Uuid",
+        "Varchar",
+        "Varchar",
+        "Varchar",
+        "Text",
+        "Int8",
+        "Bool"
+      ]
+    },
+    "nullable": []
+  },
+  "hash": "e0756c6cca33280d8a3bdda6363e882e98582712fb7daf69329d094d2368e713"
+}
